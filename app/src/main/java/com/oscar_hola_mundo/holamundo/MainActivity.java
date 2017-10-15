@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity
         }
         else if(!Patterns.EMAIL_ADDRESS.matcher(email).matches()){
             txtEmail.setError("El email no es válido");
-            txtEdad.requestFocus();
+            txtEmail.requestFocus();
         }
         else if(edad.isEmpty()){
             txtEdad.setError("Ingresa tu edad");
@@ -54,7 +54,6 @@ public class MainActivity extends AppCompatActivity
         else  if(Integer.parseInt(edad)>100){
             txtEdad.setError("Eres demasiado grande");
             txtEdad.requestFocus();
-
         }
 
 
