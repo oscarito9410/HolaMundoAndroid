@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.oscar_hola_mundo.holamundo.MainActivity">
+
+    <EditText
+        android:id="@+id/txtNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingresa tu nombre"
+        android:inputType="textPersonName"
+        android:textColorHint="#0ccec8"
+        android:textSize="28sp"
+        android:layout_marginTop="10dp"/>
+
+
+    <EditText
+        android:id="@+id/txtEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingresa tu email"
+        android:inputType="textEmailAddress"
+        android:textColorHint="#0c9b96"
+        android:textSize="28sp"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:id="@+id/txtEdad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingresa tu edad"
+        android:inputType="numberSigned"
+        android:textColorHint="#086462"
+        android:textSize="28sp"
+        android:layout_marginTop="20dp"/>
+
+
+    <Button
+        android:id="@+id/btnSaludar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Saludar"
+        android:textColor="#000"
+        android:layout_marginTop="20dp"
+        android:background="#17cde1"/>
+
+
+
+
+
+
+</LinearLayout>
